@@ -1,0 +1,49 @@
+{
+  "name": "骑行数据量化评分 · Ride Score",
+  "short_name": "RIDE SCORE",
+  "description": "把每一次骑行变成可量化的执行分：导入 FIT/TCX/GPX 或手动录入，本地计算，不上传。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./ridescore.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0D1110",
+  "theme_color": "#0D1110",
+  "categories": ["health", "fitness", "sports", "utilities"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "录入一次骑行",
+      "short_name": "录入",
+      "url": "./ridescore.html#entry",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "查看总览",
+      "short_name": "总览",
+      "url": "./ridescore.html#overview",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
